@@ -51,11 +51,10 @@ export default function AdminDashboard() {
             <div className="main-menu">
               <ul className="nav">
                 {/* Uncomment the lines below to include menu items */}
-                {/* <li><a href="./about.html"> About </a> </li> */}
-                {/* <li><a href="./contact.html"> Contact </a> </li> */}
-                {/* <li><a href="./Profile.html"> Profile </a> </li> */}
+                <li><Link to='/about'> About </Link> </li>
+                
                 <li><Link to="/QO"> Quality officer</Link> </li>
-                {/* <li><a href="./teacher.html"> Instructor </a> </li> */}
+               
                 <li><Link to = '/student'> Students </Link> </li>
                 <li><Link> Program Coordinator </Link> </li>
                 <li><Link to='/instructure'> Instructor </Link> </li>
@@ -76,7 +75,7 @@ export default function AdminDashboard() {
                 <div className="investor-box">
                   <h2>Student</h2>
                   <div className="flip-view">
-                    <a href="#">Read More <i className="fas fa-chevron-circle-right"></i></a>
+                    <Link>Read More <i className="fas fa-chevron-circle-right"></i></Link>
                   </div>
                 </div>
               </div>
@@ -84,7 +83,7 @@ export default function AdminDashboard() {
                 <div className="investor-box">
                   <h2>Coordinate officer</h2>
                   <div className="flip-view">
-                    <a href="#">Read More <i className="fas fa-chevron-circle-right"></i></a>
+                    <Link>Read More <i className="fas fa-chevron-circle-right"></i></Link>
                   </div>
                 </div>
               </div>
@@ -92,7 +91,7 @@ export default function AdminDashboard() {
                 <div className="investor-box">
                   <h2>QA Team</h2>
                   <div className="flip-view">
-                    <a href="#">Read More <i className="fas fa-chevron-circle-right"></i></a>
+                    <Link>Read More <i className="fas fa-chevron-circle-right"></i></Link>
                   </div>
                 </div>
               </div>

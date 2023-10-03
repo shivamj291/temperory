@@ -1,6 +1,6 @@
 import React from "react";
 import '../Footer/Footer.css'
-
+import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <div>
@@ -39,7 +39,7 @@ export default function Footer() {
                         <a href="#">About Us</a>
                       </li>
                       <li>
-                        <a href="#">How It Works</a>
+                        <Link to ='/about'>How It Works</Link>
                       </li>
                       <li>
                         <a href="#">Affiliates</a>
