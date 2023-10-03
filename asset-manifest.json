@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/temperory/static/css/main.ae7c9e83.css",
-    "main.js": "/temperory/static/js/main.ca85f44c.js",
+    "main.js": "/temperory/static/js/main.eff5fee1.js",
     "static/js/787.12a9fb24.chunk.js": "/temperory/static/js/787.12a9fb24.chunk.js",
     "static/media/logo.svg": "/temperory/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/temperory/index.html",
     "main.ae7c9e83.css.map": "/temperory/static/css/main.ae7c9e83.css.map",
-    "main.ca85f44c.js.map": "/temperory/static/js/main.ca85f44c.js.map",
+    "main.eff5fee1.js.map": "/temperory/static/js/main.eff5fee1.js.map",
     "787.12a9fb24.chunk.js.map": "/temperory/static/js/787.12a9fb24.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ae7c9e83.css",
-    "static/js/main.ca85f44c.js"
+    "static/js/main.eff5fee1.js"
   ]
 }
