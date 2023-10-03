@@ -16,6 +16,7 @@ export default function Routing() {
   return (
     <div>
       <Routes>
+        <Route path='/' element={<About/>} exact/>
         <Route path='/admin' element={<AdminDashboard/>}/>
         <Route path='/student' element={<PrivateRouteForStudent>
             <Student/></PrivateRouteForStudent>}/>
@@ -23,7 +24,7 @@ export default function Routing() {
             <Instructure/>
         </PrivateRouteForTeacher>
         }/>
-        <Route path='/' element={<About/>}/>
+       
         <Route path='/signup' element={<SignUp/>}/>
         <Route path='/login' element={<Login/>}/>
         <Route path='/QO' element={<QO/>}/>
