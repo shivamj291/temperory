@@ -36,7 +36,7 @@ export default function Footer() {
                     <h4 className="footer-widget-title">Our Site</h4>
                     <ul>
                       <li>
-                        <a href="#">About Us</a>
+                        <Link to='/'>About Us</Link>
                       </li>
                       <li>
                         <Link to ='/about'>How It Works</Link>
