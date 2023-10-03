@@ -1,0 +1,190 @@
+
+/* Boinipally Shreya– 1002069587
+Sai Narayana Shanmukh Ayyagari – 1002063350
+Vamshi Krishna Donthula– 1002113038
+Komal Sai Gorantla –1002066859
+Kankanala sridher reddy– 1002074031  */
+
+
+/* Imports the Rubik font in multiple font weights from Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,400,500,700);
+
+/* Global styles for the body element */
+body {
+ font-family:Rubik,sans-serif;  /* Sets the Rubik font as the primary font with sans-serif as a fallback */
+ position:relative;  /* Positions the body element relative to its normal position */
+ font-weight:400;    /* Sets the font weight to normal */
+ font-size:15px   /* Sets the font size to 15px */
+}
+
+/* Removes padding and margin from unordered lists for consistency */
+ul {
+ padding:0;
+ margin:0
+}
+
+/* Removes bullet points from list items */
+li {
+ list-style:none
+}
+
+/* Hover and focus styles for anchor links */
+a:focus,a:hover {
+ text-decoration:none;
+ -webkit-transition:.3s ease;
+ -o-transition:.3s ease;
+ transition:.3s ease
+}
+
+/* Removes outline from links when they are focused for cleaner look */
+a:focus {
+ outline:0
+}
+
+/* Ensures images are not wider than their containing element */
+img {
+ max-width:100%
+}
+p {
+ font-size:16px;
+ line-height:30px;
+ color:#898b96;
+ font-weight:300
+}
+h4 {
+ font-family:Rubik,sans-serif;
+ margin:0;
+ font-weight:400;
+ padding:0;
+ color:#363940
+}
+a {
+ color:#5867dd
+}
+
+/* Utility class to remove padding */
+.no-padding {
+ padding:0!important
+}
+
+/* Styles for the "go to top" button */
+.go_top {
+ line-height:40px;
+ cursor:pointer;
+ width:40px;
+ background:#5867dd;
+ color:#fff;
+ position:fixed;
+ -webkit-box-shadow:0 4px 4px rgba(0,0,0,.1);
+ box-shadow:0 4px 4px rgba(0,0,0,.1);
+ -webkit-border-radius:50%;
+ border-radius:50%;
+ right:-webkit-calc((100% - 1140px)/ 2);
+ right:calc((100% - 1140px)/ 2);
+ z-index:111;
+ bottom:80px;
+ text-align:center
+}
+.go_top span {
+ display:inline-block
+}
+.footer-big {
+ padding:105px 0 65px 0
+}
+.footer-big .footer-widget {
+ margin-bottom:40px
+}
+
+/* Styles for footer when it has a light theme */
+.footer--light {
+ background:#e7e8ed    /* Sets the background color for the light footer */
+}
+.footer-big .footer-menu ul li a,.footer-big p,.footer-big ul li {
+ color:#898b96
+}
+.footer-menu {
+ padding-left:48px
+}
+.footer-menu ul li a {
+ font-size:15px;
+ line-height:32px;
+ -webkit-transition:.3s;
+ -o-transition:.3s;
+ transition:.3s
+}
+.footer-menu ul li a:hover {
+ color:#5867dd
+}
+.footer-menu--1 {
+ width:100%
+}
+.footer-widget-title {
+ line-height:42px;
+ margin-bottom:10px;
+ font-size:18px
+}
+.mini-footer {
+ background:#192027;
+ text-align:center;
+ padding:32px 0
+}
+.mini-footer p {
+ margin:0;
+ line-height:26px;
+ font-size:15px;
+ color:#999
+}
+.mini-footer p a {
+ color:#5867dd
+}
+.mini-footer p a:hover {
+ color:#34bfa3
+}
+.widget-about img {
+ display:block;
+ margin-bottom:30px
+}
+.widget-about p {
+ font-weight:400
+}
+.widget-about .contact-details {
+ margin:30px 0 0 0
+}
+
+/*
+    Sets a bottom margin for each list item within the contact details section
+    of the "about" widget to space them out
+*/
+.widget-about .contact-details li {
+ margin-bottom:10px
+}
+
+/*
+    Removes the bottom margin for the last list item within the contact details
+    section of the "about" widget to prevent extra spacing at the end
+*/
+.widget-about .contact-details li:last-child {
+ margin-bottom:0
+}
+
+/*
+    Adds some right padding to the span elements within each list item in
+    the contact details section of the "about" widget. This might be used to
+    ensure space between the span content and any adjacent content
+*/
+.widget-about .contact-details li span {
+ padding-right:12px
+}
+
+/*
+    Specifies the color for anchor links within each list item in the contact
+    details section of the "about" widget with color shade of blue
+*/
+.widget-about .contact-details li a {
+ color:#5867dd
+}
+@media (max-width:991px) {
+ .footer-menu {
+  padding-left:0
+ }
+}
